@@ -12,7 +12,7 @@ for i in range(len(hospitals)):
 # use the google map api
 
 for j in range(len(list)):
-    url = f'https://maps.googleapis.com/maps/api/geocode/json?address={list[j]}&key=AIzaSyA-w4Ggq4Pw6dEesydVgsxSmgAX9aOB-AQ'
+    url = f'https://maps.googleapis.com/maps/api/geocode/json?address={list[j]}&key=GOOGLE MAPS API KEY'
     jsonurl = urlopen(url)
 
     text = json.loads(jsonurl.read())
